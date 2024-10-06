@@ -1,0 +1,172 @@
+h3 {
+    text-align: center;
+  }
+
+
+  iframe {
+    padding: 10px 10px 0px 10px;
+  }
+
+  body {
+    background-image: url("/space-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+
+  }
+
+  
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+
+  h3 {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    outline: none;
+  }
+
+  td {
+    border: 1px solid black;
+    padding-top: 0px;
+  }
+
+  iframe {
+    padding: 10px 10px 0px 10px;
+    border: 5px black;
+  }
+  .logo {
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .style-links {
+    background-color: darkgrey; 
+    border-radius: 20px;
+     transition: background-color 0.3s ease, transform 0.3s ease;
+     margin: 5px;
+  }
+
+  .style-links-upload {
+    background-color: black;
+    border-radius: 20px;
+     transition: background-color 0.3s ease, transform 0.3s ease;
+     margin: 5px; 
+
+  }
+
+  .paycheck, .millionare-low-salary, .fifty-principles {
+      display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+     }
+
+/* Base button styles */
+     button {
+      
+      justify-content: center;
+      padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+     }
+
+.btn-container {
+
+  display: flex; /* Enables flexbox */
+  justify-content: center;/* Centers content horizontally */
+  margin-top: 20px; /* Optional: adds space above the button */
+  gap: 10px;
+}
+
+
+.btn {
+padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-2 {
+padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #953fdb; /* Darker purple on hover */
+}
+
+.btn-2:hover {
+  background-color: #953fdb; /* Darker purple on hover */
+}
+
+  .container {
+    background-image: url('/outter-space-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid;
+    width: 400px;
+  }
+
+  label {
+    color: white;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .file-upload-color {
+    color: white;
+  }
+
+  .sub-btn {
+    background-color: #9053c2; border: none; cursor: pointer;
+  }
+
+  select {
+    outline: none;
+    text-decoration: none;
+  }
+  

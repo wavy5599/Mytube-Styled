@@ -1,0 +1,66 @@
+body {
+  background-image: url('space-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+
+}
+
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 20px;
+
+}
+
+h3 {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+td {
+  border: 1px solid black;
+  padding-top: 0px;
+}
+
+iframe {
+  padding: 10px 10px 0px 10px;
+  border: 5px black;
+}
+.logo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.style-links {
+  background-color: darkgrey; 
+  border-radius: 20px;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.style-links-upload {
+  background-color: black;
+  border-radius: 20px;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+}

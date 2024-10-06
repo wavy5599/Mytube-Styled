@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTube</title>
+  </head>
+  <link rel="icon" href="/mytube-logo.jpg">
+  <link rel="stylesheet" href="/pages/upload.css">
+  
+   
+  <!----Link was fixed to the pages folder the funniest videos link should work
+  more context was added to the upload page so user and add a title and description to their video and the option tags for submitting to a specific collection -->
+  <body>
+    <br>
+    <br>
+    <nav>
+      <a class="style-links" href="/index.html">Home</a>
+      <a class="style-links" href="/pages/personal finance.html">Finance</a>
+      <a class="style-links" href="/pages/funniest videos.html">Funniest Videos</a>
+      <a class="style-links" href="/pages/life hacks.html">Life Hacks </a>
+      <a class="style-links-upload" href="/pages/upload.html">Upload</a>
+    </nav>
+    <br>
+    <br>
+    <h1>Upload Your Video</h1>
+<br>
+   <div class="container">
+    
+    <form action="">
+      <br>
+      <label for="upload">Chose which files you'd like to upload</label>
+      <br /><br />
+      <input class="file-upload-color" type="file" multiple required />
+      <br />
+      <br />
+
+      <label for="title">Enter a title for your video:</label>
+      <br /><br />
+      <input type="text" id="title" name="title" required />
+      <br />
+      <br />
+
+      <label for="description">Enter a brief description of your video:</label>
+      <br /><br />
+      <textarea id="description" name="description" required></textarea>
+      <br />
+      <br />
+      <label for="collection">Choose a collection for your video:</label>
+      <br />
+      <br />
+      <select id="collection" name="category" required>
+        <br />
+        <br />
+        <option value="Life Hacks">Life Hacks</option>
+        <option value="Funny Videos">Funniest Videos</option>
+        <option value="Personal Finance Advice"> Finance</option>
+      </select>
+      <br />
+      <br />
+      <input
+        name="public or private"
+        id="private"
+        type="radio"
+        value="public"
+      />
+      <label for="public">Public</label><br />
+
+      <input
+        name="public or private"
+        id="public"
+        type="radio"
+        value="private"
+      />
+      <label for="private">Private</label><br />
+      <br>
+
+
+
+      <input class="sub-btn" type="submit" value="Submit" />
+ <br>
+ <br>
+      
+    </form>
+    
+  </div>
+  <br>
+  <footer style="border: solid 1px; background-color: black;">
+    <p style="margin: 5px">&copy; 2024 MyTube</p>
+  </footer>
+  </body>
+</html>
